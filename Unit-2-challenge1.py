@@ -20,7 +20,7 @@ class BankAccount:
         return f"Account balance for {self.__account_holder_name} (Account number: {self.__account_number}) is: ₹{self.__account_balance}"
 
 # Creating an instance of BankAccount
-my_account = BankAccount("12345", "Joylin", 1000)
+my_account = BankAccount("12345", "Priyadharshini", 1000)
 print(my_account.display_balance())
 
 # Depositing money
